@@ -1,0 +1,36 @@
+<div class="container  mb-n pt-2">
+  <div>
+      <div class="backbtn_position">
+          <div class="backbtn">
+              <button mat-raised-button (click)="goBack()"><mat-icon>arrow_back</mat-icon></button>
+          </div>
+      </div>
+      <nav class="mt-3 mb-2">
+          <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a (click)="dashboard()">Dashboard</a></li>
+              <li class="breadcrumb-item active">Pie chart</li>
+          </ol>
+      </nav>
+  </div>
+  <div class="common_heading">Page 2</div>
+
+  <div class="card mt-2">
+      <div class="row mb-2 pt-2">
+          <div class="col-8">
+          </div>
+
+          <div class="col-4 text-right">
+              <a (click)="dashboard()">
+                  <button mat-raised-button class="chips content_right mt--2"><mat-icon class="f-21" mat-Prefix>add</mat-icon>Go to Page 1</button>
+              </a>
+          </div>
+      </div>
+
+      <div>
+        <div>
+            <canvas id="canvas">{{ chart }}</canvas>
+          </div>
+      </div>
+  </div>
+
+</div>

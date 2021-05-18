@@ -1,0 +1,374 @@
+@import '../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2') format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* cyrillic-ext */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url('assets/fonts/mem8YaGs126MiZpBA-UFWJ0bbck.woff2') format('woff2');
+}
+
+
+/* cyrillic */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url('assets/fonts/mem8YaGs126MiZpBA-UFUZ0bbck.woff2') format('woff2');
+}
+
+
+/* greek-ext */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url('assets/fonts/mem8YaGs126MiZpBA-UFWZ0bbck.woff2') format('woff2');
+}
+
+
+/* greek */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url('assets/fonts/mem8YaGs126MiZpBA-UFVp0bbck.woff2') format('woff2');
+}
+
+
+/* vietnamese */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url('assets/fonts/mem8YaGs126MiZpBA-UFWp0bbck.woff2') format('woff2');
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url('assets/fonts/mem8YaGs126MiZpBA-UFW50bbck.woff2') format('woff2');
+}
+
+
+/* latin */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url('assets/fonts/mem8YaGs126MiZpBA-UFVZ0b.woff2') format('woff2');
+}
+
+@media only screen and (max-width: 767px) {
+    html {
+        background-image: none !important;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .common_heading {
+        font-size: 16px;
+    }
+    .common_label_head {
+        font-size: 14px;
+    }
+    .common_text,
+    .btn,
+    .mat-label {
+        font-size: 12px !important;
+    }
+    .btn {
+        width: 100px;
+    }
+    .btn-large {
+        width: 130px;
+    }
+}
+
+
+/* <<<<<<<<<<Tablet Screens>>>>>>>>>>>> */
+
+@media only screen and (min-width:577px) and (max-width:768px) {
+    .common_heading {
+        font-size: 18px;
+    }
+    .common_label_head {
+        font-size: 16px;
+    }
+    .common_text,
+    .btn,
+    .mat-label {
+        font-size: 14px !important;
+    }
+    .btn {
+        width: 105px;
+    }
+    .btn-large {
+        width: 135px;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:992px) {
+    .common_heading {
+        font-size: 20px;
+    }
+    .common_label_head {
+        font-size: 16px;
+    }
+    .common_text,
+    .btn,
+    .mat-label {
+        font-size: 14px !important;
+    }
+    body {
+        background-image: url('assets/All_Screen_Backgound.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        background-position: center center;
+        background-attachment: fixed;
+        overflow-x: hidden;
+        font-family: 'Open Sans', serif !important;
+    }
+    .btn {
+        width: 110px;
+    }
+    .btn-large {
+        width: 140px;
+    }
+}
+
+
+/* <<<<<<<<<<Laptop Screens>>>>>>>>>>>> */
+
+@media only screen and (min-width:993px) and (max-width:1200px) {
+    .common_heading {
+        font-size: 20px;
+    }
+    .common_label_head {
+        font-size: 18px;
+    }
+    .common_text,
+    .btn,
+    .mat-label {
+        font-size: 14px !important;
+    }
+    body {
+        background-image: url('assets/All_Screen_Backgound.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        background-position: center center;
+        background-attachment: fixed;
+        overflow-x: hidden;
+        font-family: 'Open Sans', serif !important;
+    }
+    .btn {
+        width: 115px;
+    }
+    .btn-large {
+        width: 145px;
+    }
+}
+
+@media only screen and (min-width:1201px) {
+    .common_heading {
+        font-size: 20px;
+    }
+    .common_label_head {
+        font-size: 18px;
+    }
+    .common_text,
+    .btn,
+    .mat-label {
+        font-size: 15px !important;
+    }
+    body {
+        background-image: url('assets/All_Screen_Backgound.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        background-position: center center;
+        background-attachment: fixed;
+        overflow-x: hidden;
+        font-family: 'Open Sans', serif !important;
+    }
+    .btn {
+        width: 120px;
+    }
+    .btn-large {
+        width: 150px;
+    }
+}
+
+
+/* <<<<<<<<<<Common for all Screens>>>>>>>>>>>> */
+
+html {
+    background-image: url('assets/All_Screen_Backgound.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', serif !important;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
+}
+
+.container {
+    margin-top: 4.2rem
+}
+
+@media only screen and (max-width: 991px) {
+    .container {
+        margin-top: 0
+    }
+    .dashboard_tab {
+        width: 240px !important;
+        font-size: 14px !important;
+    }
+    .dashboard_tab1 {
+        padding: 10px !important;
+        width: 120px !important;
+    }
+    .dashboard_tab2 {
+        padding: 10px !important;
+        width: 120px !important;
+    }
+}
+
+.mb-n {
+    margin-bottom: 6rem !important;
+}
+
+.backbtn_position {
+    position: absolute;
+    left: 16px;
+}
+
+@media (max-width: 766px) {
+    .backbtn_position {
+        /* position: inherit;
+        float: left;
+        margin-right: 12px;
+        margin-top: -7px; */
+        display: none;
+    }
+}
+
+.backbtn button {
+    border-radius: 21px !important;
+    color: #470E45 !important;
+    background-color: #fff;
+    width: 60px !important;
+}
+
+.backbtn button:focus {
+    outline: none;
+}
+
+.backbtn {
+    margin-left: 8px;
+}
+
+.backbtn button {
+    border-radius: 21px !important;
+    color: #470E45 !important;
+    background-color: #fff;
+    width: 60px !important;
+}
+
+.backbtn button:focus {
+    outline: none;
+}
+
+.breadcrumb {
+    padding: 0 !important;
+    margin-bottom: 0.5rem;
+    background-color: transparent !important;
+}
+
+.breadcrumb a {
+    color: #5f0f5c !important;
+}
+
+.common_heading,
+.common_label_head {
+    color: #813D7E;
+    font-weight: 600;
+}
+
+.card {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .16);
+    padding: 1rem;
+}
+
+[mat-row],
+.mat-row {
+    background-color: #fff !important;
+}
+
+.chips {
+    display: inline-block !important;
+    padding: 0 18px 0 12px !important;
+    font-size: 14px !important;
+    border-radius: 21px !important;
+    background-color: #470E45 !important;
+    color: #fff !important;
+}
+
+.content_right {
+    float: right;
+}
+
+table {
+    width: 100% !important;
+}
